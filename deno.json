@@ -1,0 +1,6 @@
+{
+    "tasks": {
+      "doc": "rm -rf public/ && deno doc --private --html --name=LibShare --output=public src/code.js"
+    }
+  }
+  

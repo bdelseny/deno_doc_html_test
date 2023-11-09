@@ -1,0 +1,13 @@
+default:
+  image: denoland/deno:alpine
+
+pages:
+  stage: deploy
+  script:
+    - echo "publish doc"
+  artifacts:
+    paths:
+      - public
+  publish: public
+  only:
+    - master
