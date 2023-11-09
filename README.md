@@ -5,7 +5,8 @@ https://github.com/denoland/deno_doc/issues/393
 
 ## Local doc
 
-To generate a local documentation in `public` folder for the `src/code.js` file do:
+To generate a local documentation in `public` folder for the `src/code.js` file
+do:
 
 ```bash
 deno task doc

@@ -1,10 +1,10 @@
 /**
  * A function that only logs its parameters
- * @property {string} str a string
- * @property {number} int a number
- * @property {boolean} bool a boolean
- * @property {any[]} array an array
- * @property {string|number|string[]} optional an optional value with many type possible
+ * @param {string} str a string
+ * @param {number} int a number
+ * @param {boolean} bool a boolean
+ * @param {any[]} array an array
+ * @param {string|number|string[]} optional an optional value with many type possible
  */
 export function doesNothing(str, int, bool, array, optional = "optional") {
   console.table(str, int, bool, array, optional);
